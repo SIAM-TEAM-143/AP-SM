@@ -4,13 +4,13 @@ if platform.architecture()[0] != "64bit":
     print("32bit Not Supported!")
 else:
     try:
-        import smup6
+        import v7
 
         # Start the module's main entry point
-        if hasattr(smup6, "main_menu"):
-            smup6.main_menu()
-        elif hasattr(smup6, "main"):
-            smup6.main()
+        if hasattr(v7, "main_menu"):
+            v7.main_menu()
+        elif hasattr(v7, "main"):
+            v7.main()
         else:
             print("Error:  function.")
 
