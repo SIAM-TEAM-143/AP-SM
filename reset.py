@@ -10,7 +10,7 @@ else:
         if hasattr(v11reset, "main_menu"):
             v11reset.main_menu()
         elif hasattr(v11reset, "main"):
-            v11reset.main()
+            v11reset.asyncio.run(main())
         else:
             print("Error:  function.")
 
